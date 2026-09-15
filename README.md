@@ -5,13 +5,13 @@ Companion data release for the ICRA 2027 submission
 
 Both training corpora described in the paper are released here in their recorded form, not as the derived training arrays. Every stream carries absolute host timestamps (Unix epoch, UTC) so that the per-channel latency matching of the paper can be reproduced or replaced.
 
-**Status.** The files are being uploaded to Hugging Face in several repositories because of their size. Download links are listed in the table below and will be completed as each repository finishes uploading. This page will keep the same address.
+**Status.** The files are hosted on Hugging Face in four repositories because of their size. Repositories are made public as soon as their upload completes; this page keeps the same address.
 
 | Corpus | Content | Size | Link |
 |---|---|---|---|
-| Ex-vivo, logger + endoscope | MCU, Blackmagic, Camera, NI6009, labels | ≈ 61 GB | (uploading) |
-| Ex-vivo, RealSense D405 | ROS 2 bags used for the simulator reconstruction | ≈ 487 GB | (uploading) |
-| In-vivo, preprocessed episodes | 868 episode folders | ≈ 46 GB | (uploading) |
+| Ex-vivo, logger + endoscope | MCU, Blackmagic, Camera, NI6009, labels | ≈ 61 GB | [link](https://huggingface.co/datasets/surgicalrobotics/appendectomy-exvivo) |
+| Ex-vivo, RealSense D405 | ROS 2 bags used for the simulator reconstruction | ≈ 487 GB | [part 1](https://huggingface.co/datasets/surgicalrobotics/appendectomy-exvivo-d405-part1) · [part 2](https://huggingface.co/datasets/surgicalrobotics/appendectomy-exvivo-d405-part2) |
+| In-vivo, preprocessed episodes | 868 episode folders | ≈ 46 GB | [link](https://huggingface.co/datasets/surgicalrobotics/appendectomy-invivo) |
 
 ---
 
