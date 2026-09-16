@@ -5,7 +5,7 @@ Companion data release for the ICRA 2027 submission
 
 Both training corpora described in the paper are released here in their recorded form, not as the derived training arrays. Every stream carries absolute host timestamps (Unix epoch, UTC) so that the per-channel latency matching of the paper can be reproduced or replaced.
 
-**Status.** The files are hosted on Hugging Face in four public repositories because of their size; this page keeps the same address. Both training corpora used in the paper, the ex-vivo logger and endoscope recordings and the in-vivo episodes, are complete. The RealSense D405 bags are a supplement used only for the simulator reconstruction; they are not needed to reproduce any result in the paper, and their upload (about 487 GB) is still in progress, so those two repositories may appear empty.
+**Status.** The files are hosted on Hugging Face in four public repositories because of their size; this page keeps the same address. Both training corpora used in the paper, the ex-vivo logger and endoscope recordings and the in-vivo episodes, are complete. The RealSense D405 bags, a supplement used only for the simulator reconstruction and not needed to reproduce any result in the paper, are complete as well. All four repositories now hold the full corpora.
 
 | Corpus | Content | Size | Link |
 |---|---|---|---|
